@@ -19,6 +19,7 @@ The installation is split into three parts:
 - Installing needed Termux packages
 - Compiling and installing [Recode](https://github.com/rrthomas/recode)
 - Installing [Tuxi](https://github.com/Bugswriter/tuxi)
+
 Not specifying any arguments will do all of the above.
 
 To only install Termux packages, run:

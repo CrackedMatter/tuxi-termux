@@ -10,7 +10,7 @@ pkg install pup jq curl tar python clang make || exit 1
 
 install_recode() {
 curl -sL "https://github.com/rrthomas/recode/releases/download/v3.7.9/recode-3.7.9.tar.gz" -o /data/data/com.termux/files/usr/tmp/recode.tar.gz
-tar -xf /data/data/com.termux/files/tmp/recode.tar.gz -C /data/data/com.termux/files/tmp
+tar -xf /data/data/com.termux/files/usr/tmp/recode.tar.gz -C /data/data/com.termux/files/usr/tmp
 cd /data/data/com.termux/files/usr/tmp/recode-3.7.9
 $say "Configuring Recode... this might take a while"
 ./configure --prefix=/data/data/com.termux/files/usr &&\

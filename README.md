@@ -4,19 +4,19 @@ A shell script that installs [Tuxi](https://github.com/Bugswriter/tuxi) in [Term
 # Usage
 ## tl;dr for lazy people
 ```
-curl -sL https://github.com/CrackedMatter/tuxi-termux/releases/download/v1/installtuxi.sh | bash
+curl -sL https://github.com/CrackedMatter/tuxi-termux/releases/download/v1.1/installtuxi.sh | bash
 ```
 ## Detailed instructions
-Download the script [here](https://github.com/CrackedMatter/tuxi-termux/releases/download/v1/installtuxi.sh) or using `curl`:
+Download the script [here](https://github.com/CrackedMatter/tuxi-termux/releases/download/v1.1/installtuxi.sh) or using `curl`:
 ```
-curl -sL https://github.com/CrackedMatter/tuxi-termux/releases/download/v1/installtuxi.sh -o installtuxi.sh
+curl -sL https://github.com/CrackedMatter/tuxi-termux/releases/download/v1.1/installtuxi.sh -o installtuxi.sh
 ```
 Run the script. Installing [Termux:API](https://wiki.termux.com/wiki/Termux:API) beforehand will give you progress updates during the installation.
 ```
 bash installtuxi.sh
 ```
 The installation is split into three parts:
-- Installing needed Termux packages
+- Installing required Termux packages
 - Compiling and installing [Recode](https://github.com/rrthomas/recode)
 - Installing [Tuxi](https://github.com/Bugswriter/tuxi)
 
